@@ -1,21 +1,14 @@
-# Turborepo Create React App starter
+# Turborepo monorepo example with NestJS and ReactJS
 
-This is an official starter Turborepo.
+## Quickstart
 
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-create-react-app
+```shell
+docker compose up
 ```
 
-## What's inside?
+## Apps and Packages
 
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
+- `api`: a [nestjs](https://docs.nestjs.com/) app
 - `docs`: a [create-react-app](https://create-react-app.dev) app
 - `web`: another [create-react-app](https://create-react-app.dev) app
 - `ui`: a stub React component library shared by both `web` and `docs` applications
@@ -24,7 +17,7 @@ This Turborepo includes the following packages/apps:
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
+## Utilities
 
 This Turborepo has some additional tools already setup for you:
 
@@ -32,3 +25,4 @@ This Turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
+
