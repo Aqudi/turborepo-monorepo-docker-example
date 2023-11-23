@@ -3,7 +3,12 @@
 ## Quickstart
 
 ```shell
-docker compose up
+docker compose up -d
+```
+
+```shell
+# 패키지 추가 후에는 다시 빌드를 해줘야 함
+docker compose up -d -V --build <servicename>
 ```
 
 ## Apps and Packages
@@ -26,3 +31,10 @@ This Turborepo has some additional tools already setup for you:
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
 
+## 참고
+
+- https://turbo.build/
+- https://github.com/vercel/turbo/tree/main/examples/with-create-react-app
+- https://github.com/vercel/turbo/tree/main/examples/with-docker
+- https://dev.to/moofoo/creating-a-development-dockerfile-and-docker-composeyml-for-yarn-122-monorepos-using-turborepo-896
+- https://nestjs.com/
